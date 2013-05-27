@@ -14,4 +14,6 @@ Cureency / Numeric TextField and Label
 	
 	numericLabel.text = @"1085";
 	numericLabel.currencyPrefix = @"\\";
+
+	numericLabel.text = [NSString stringWithFormat:@"%d", (int)([numericField1.numericString doubleValue] * [numericField2.numericString doubleValue])];
 </code></pre>
